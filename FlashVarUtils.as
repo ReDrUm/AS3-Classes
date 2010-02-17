@@ -1,4 +1,4 @@
-﻿/**
+/**
  * FlashVarUtils by Tim Keir, Dec 12 2009 - http://www.timkeir.co.nz
  *
  * Copyright (c) 2009 Tim Keir
@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package prevail.utils
+package com.timkeir.utils
 {
 	public class FlashVarUtils
 	{
