@@ -51,7 +51,6 @@ package com.timkeir.utils
 				trace("FlashVarUtils.as - setting vars in "+c.substr(8, c.length-9));
 				trace("------------------------------------");
 				val = ""; key = "";
-				
 				for(key in fv)
 				{
 					val = fv[key]; trace(key+" = '"+val+"'");
