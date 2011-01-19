@@ -91,11 +91,11 @@ package com.timkeir.utils
 		/**
 		 *	Sets the Flash Variables object.
 		 *
-		 *	@param _fv The flash variables object
+		 *	@param _fv The flash variables object, or a reference to stage or root
 		 */
 		public static function set flashVars(_fv:Object):void
 		{
-			fv = _fv;
+			fv = (_fv.loaderInfo != null) ? _fv.loaderInfo.parameters : _fv;
 		}
 	}
 }
